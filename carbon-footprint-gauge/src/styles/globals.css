@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #f1f1f1;
+    --text-color: #333;
+    --background-color: #ffffff;
+    --footer-background: #f8f8f8;
+    --header-background: #4CAF50;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--header-background);
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--footer-background);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.chart-container {
+    margin: 20px;
+}
+
+.metric {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
